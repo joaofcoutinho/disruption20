@@ -37,9 +37,9 @@ export default function HeroSection() {
     }
   }, [])
 
-  // Calculate opacity based on scroll position (decreases as user scrolls down)
+  // Opacity always stays at base value (no fade on scroll)
   const getOpacityFromScroll = (baseOpacity: number) => {
-    return Math.max(0, baseOpacity - scrollPosition / 500)
+    return baseOpacity
   }
 
   return (
