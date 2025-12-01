@@ -45,7 +45,7 @@ export default function HeroSection() {
   return (
     <div
       ref={heroRef}
-      className="relative w-full min-h-screen overflow-hidden bg-dark text-light flex items-center justify-center py-32 md:py-40"
+      className="relative w-full min-h-screen overflow-hidden bg-dark text-light flex items-center justify-center pt-32 pb-16 md:pt-36 md:pb-20"
     >
       <div
         className="absolute inset-0 overflow-hidden"
@@ -192,7 +192,7 @@ export default function HeroSection() {
                   opacity: getOpacityFromScroll(1),
                 }}
               >
-                A ENERGIA DO VERÃO O PALCO DA TRANSFORMAÇÃO, ONDE LÍDERES SE REÚNEM PARA CRIAR O PRÓXIMO NÍVEL
+                A ENERGIA DO VERÃO NO PALCO DA TRANSFORMAÇÃO
               </span>
             </h1>
 
@@ -203,9 +203,7 @@ export default function HeroSection() {
                 textShadow: "0 2px 20px rgba(0,0,0,0.8)",
               }}
             >
-              A estagnação é a sentença de morte para qualquer negócio que almeja o topo. O Disruption é um movimento
-              contínuo de líderes que recusam a mediocridade, e na vigésima edição, a força do nosso movimento se une à
-              Energia do Verão para criar o DISRUPTION SUMMER SUMMIT.
+              O Disruption é um movimento contínuo de líderes que recusam a mediocridade, e na vigésima edição, o movimento se une para criar o DISRUPTION SUMMER SUMMIT.
             </p>
 
             <div className="mb-10 py-8 px-6 border-y-2 border-gold/30 bg-gradient-to-r from-transparent via-gold/5 to-transparent backdrop-blur-sm rounded-lg">

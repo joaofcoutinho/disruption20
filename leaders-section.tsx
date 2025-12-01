@@ -36,7 +36,7 @@ export default function LeadersSection() {
     <motion.section
       ref={sectionRef}
       style={{ opacity }}
-      className="relative w-full bg-dark overflow-hidden py-20 md:py-24 px-4"
+      className="relative w-full bg-dark overflow-hidden py-16 md:py-20 px-4"
     >
       <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-dark via-dark-medium/30 to-transparent pointer-events-none z-20"></div>
 
@@ -160,7 +160,7 @@ export default function LeadersSection() {
 
                   <div className="text-center">
                     <h3 className="text-2xl md:text-3xl font-bold text-light mb-4">Paula Barcellos</h3>
-                    <p className="text-base md:text-lg text-light/80 leading-relaxed mb-4">CEO do grupo Águia Branca</p>
+                    <p className="text-base md:text-lg text-light/80 leading-relaxed mb-4"> CEO da Viação Águia Branca</p>
                     <p className="text-base text-light/70 leading-relaxed">
                       Paula Barcellos está há 23 anos no Grupo Águia Branca. Por 10 anos liderou a Diretoria Comercial e
                       de Marketing e, há 6 anos, é CEO da Viação Águia Branca, uma das maiores empresas do transporte

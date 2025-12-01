@@ -36,7 +36,7 @@ export default function EnvironmentSection() {
     <motion.section
       ref={sectionRef}
       style={{ opacity }}
-      className="relative w-full bg-dark overflow-hidden py-16 md:py-24 px-4"
+      className="relative w-full bg-dark overflow-hidden py-16 md:py-20 px-4"
     >
       <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-dark via-dark-medium/30 to-transparent pointer-events-none z-20"></div>
 

@@ -1,11 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Lightbulb, Target, Users, TrendingUp, Rocket } from "lucide-react"
+import { Sparkles, MessageCircle, HandHeart, BarChart3, Sun } from "lucide-react"
 
 export default function CommunitySection() {
   return (
-    <section className="relative w-full bg-dark overflow-hidden py-32 md:py-40 px-4">
+    <section className="relative w-full bg-dark overflow-hidden py-16 md:py-20 px-4">
       <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-dark via-dark-medium/30 to-transparent pointer-events-none z-20"></div>
 
       {/* Background gradient */}
@@ -47,7 +47,7 @@ export default function CommunitySection() {
             >
               <div className="mb-4">
                 <div className="w-12 h-12 rounded-xl bg-gold/20 border border-gold/40 flex items-center justify-center">
-                  <Lightbulb className="w-6 h-6 text-gold" />
+                  <Sparkles className="w-6 h-6 text-gold" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gold mb-3">Insights Estratégicos</h3>
@@ -63,7 +63,7 @@ export default function CommunitySection() {
             >
               <div className="mb-4">
                 <div className="w-12 h-12 rounded-xl bg-gold/20 border border-gold/40 flex items-center justify-center">
-                  <Target className="w-6 h-6 text-gold" />
+                  <MessageCircle className="w-6 h-6 text-gold" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gold mb-3">Confronto de Dores</h3>
@@ -79,7 +79,7 @@ export default function CommunitySection() {
             >
               <div className="mb-4">
                 <div className="w-12 h-12 rounded-xl bg-gold/20 border border-gold/40 flex items-center justify-center">
-                  <Users className="w-6 h-6 text-gold" />
+                  <HandHeart className="w-6 h-6 text-gold" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gold mb-3">Conexão com grandes</h3>
@@ -97,7 +97,7 @@ export default function CommunitySection() {
             >
               <div className="mb-4">
                 <div className="w-12 h-12 rounded-xl bg-gold/20 border border-gold/40 flex items-center justify-center">
-                  <TrendingUp className="w-6 h-6 text-gold" />
+                  <BarChart3 className="w-6 h-6 text-gold" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gold mb-3">Estratégia de Alto Nível</h3>
@@ -115,7 +115,7 @@ export default function CommunitySection() {
             >
               <div className="mb-4">
                 <div className="w-12 h-12 rounded-xl bg-gold/20 border border-gold/40 flex items-center justify-center">
-                  <Rocket className="w-6 h-6 text-gold" />
+                  <Sun className="w-6 h-6 text-gold" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gold mb-3">Aceleração para 2026</h3>

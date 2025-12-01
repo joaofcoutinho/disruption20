@@ -38,7 +38,7 @@ export default function FinalCtaSection() {
     <motion.section
       ref={sectionRef}
       style={{ opacity }}
-      className="relative w-full bg-dark overflow-hidden py-32 md:py-40 px-4"
+      className="relative w-full bg-dark overflow-hidden py-16 md:py-20 px-4"
       id="final-cta"
     >
       <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-dark via-dark-medium/30 to-transparent pointer-events-none z-20"></div>
