@@ -236,7 +236,7 @@ export default function HeroSection() {
                 <span className="hidden md:inline text-gold/50">|</span>
                 <span className="flex items-center gap-2">
                   <Clock className="w-4 h-4 md:w-5 md:h-5 text-gold" />
-                  8h às 22h
+                  9h às 22h
                 </span>
                 <span className="hidden md:inline text-gold/50">|</span>
                 <span className="flex items-center gap-2">

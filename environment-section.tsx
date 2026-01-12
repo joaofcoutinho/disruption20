@@ -107,7 +107,7 @@ export default function EnvironmentSection() {
 
               <div className="absolute bottom-0 left-0 right-0 p-6 z-10">
                 <h3 className="text-xl font-bold text-light mb-3">Gastronomia Tropical Autoral</h3>
-                <p className="text-light/80 leading-relaxed">Almoço assinado pelo chef Vitor Villani.</p>
+                <p className="text-light/80 leading-relaxed">Almoço assinado pelo chef Vitor Bertolani.</p>
               </div>
             </motion.div>
 
