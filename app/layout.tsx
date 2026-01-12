@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "Disruption Summer Summit - 20ª Edição",
   description: "A energia do verão. O palco da transformação, onde líderes se reúnem para criar o próximo nível.",
   generator: "v0.dev",
+  icons: {
+    icon: '/images/favicon-enjoy.png',
+  },
 }
 
 export default function RootLayout({
